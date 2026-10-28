@@ -18,7 +18,7 @@ namespace LoanManagement.Services.Customer
         {
             if (name == null)
             {
-                throw new ArgumentException("Name is null");
+                throw new ArgumentException("Name is null.");
             }
             if (name.Length == 0)
             {
